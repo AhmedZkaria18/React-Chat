@@ -5,11 +5,11 @@ import {auth } from '../Firebase/Firebase.js';
 function SignIn() {
     useEffect(() => {
         const btnStyleEl = document.querySelector(".btnStyle");
-        const sginBtnEl = document.querySelector(".sginBtn");
+        // const sginBtnEl = document.querySelector(".sginBtn");
         btnStyleEl.style.display = 'none';        
         document.querySelector(".AZChat .chatContainer .chatHeader").style.bottom = "auto"; 
         document.querySelector(".AZChat .chatContainer .chatHeader").style.top = "0rem"; 
-        console.log( btnStyleEl, sginBtnEl );
+        // console.log( btnStyleEl, sginBtnEl );
     }, []);
     
 

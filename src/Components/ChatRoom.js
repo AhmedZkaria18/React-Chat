@@ -13,9 +13,9 @@ function ChatRoom(){
     const [formValue, setFormValue] = useState('');
     useEffect(() => {
       const btnStyleEl = document.querySelector(".btnStyle");
-      const sginBtnEl = document.querySelector(".sginBtn");
+      // const sginBtnEl = document.querySelector(".sginBtn");
       btnStyleEl.style.display = 'inline-block';        
-      console.log( btnStyleEl, sginBtnEl );
+      // console.log( btnStyleEl, sginBtnEl );
     }, []);
   
     const sendMessage = async(e) => {
