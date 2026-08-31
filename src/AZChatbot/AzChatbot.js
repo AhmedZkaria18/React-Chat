@@ -53,7 +53,7 @@ function AzChatbot() {
             <h5>Chat</h5>
             <button className={"btnStyle"} 
                 onClick={() => {
-                if(tg == false){
+                if(tg === false){
                 document.querySelector(".AZChat .chatContainer .chatRoom").style.backgroundColor = "transparent";
                 // document.querySelector(".AZChat .chatContainer .chatRoom").style.height = "0rem";
                 document.querySelector(".AZChat .chatContainer .chatRoom #mainChat").style.height = "0rem";
@@ -64,7 +64,7 @@ function AzChatbot() {
                 document.querySelector(".AZChat .chatContainer .chatHeader .tgBtnD").style.display = "none"; 
                 document.querySelector(".AZChat .chatContainer .chatHeader .tgBtnU").style.display = "inline-block";
                 tg = true;
-                }else if(tg == true){
+                }else if(tg === true){
                     document.querySelector(".AZChat .chatContainer .chatRoom").style.backgroundColor = "var(--chatroomBack)";
                     // document.querySelector(".AZChat .chatContainer .chatRoom").style.height = "calc(100% - 2.3rem)";
                     document.querySelector(".AZChat .chatContainer .chatRoom #mainChat").style.height = "calc(100% - 2rem)";
